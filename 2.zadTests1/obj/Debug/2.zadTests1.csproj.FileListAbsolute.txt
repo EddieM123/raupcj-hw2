@@ -1,0 +1,36 @@
+C:\Users\Edi\Documents\Visual Studio 2017\Projects\2. DZ\2.zadTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Edi\Documents\Visual Studio 2017\Projects\2. DZ\2.zadTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Edi\Documents\Visual Studio 2017\Projects\2. DZ\2.zadTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Edi\Documents\Visual Studio 2017\Projects\2. DZ\2.zadTests1\bin\Debug\2.zadTests1.dll
+C:\Users\Edi\Documents\Visual Studio 2017\Projects\2. DZ\2.zadTests1\bin\Debug\2.zadTests1.pdb
+C:\Users\Edi\Documents\Visual Studio 2017\Projects\2. DZ\2.zadTests1\bin\Debug\2.zad.exe
+C:\Users\Edi\Documents\Visual Studio 2017\Projects\2. DZ\2.zadTests1\bin\Debug\3.zad.exe
+C:\Users\Edi\Documents\Visual Studio 2017\Projects\2. DZ\2.zadTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Edi\Documents\Visual Studio 2017\Projects\2. DZ\2.zadTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Edi\Documents\Visual Studio 2017\Projects\2. DZ\2.zadTests1\bin\Debug\3.zad.pdb
+C:\Users\Edi\Documents\Visual Studio 2017\Projects\2. DZ\2.zadTests1\bin\Debug\3.zad.exe.config
+C:\Users\Edi\Documents\Visual Studio 2017\Projects\2. DZ\2.zadTests1\bin\Debug\2.zad.pdb
+C:\Users\Edi\Documents\Visual Studio 2017\Projects\2. DZ\2.zadTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Edi\Documents\Visual Studio 2017\Projects\2. DZ\2.zadTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Edi\Documents\Visual Studio 2017\Projects\2. DZ\2.zadTests1\obj\Debug\2.zadTests1.csprojResolveAssemblyReference.cache
+C:\Users\Edi\Documents\Visual Studio 2017\Projects\2. DZ\2.zadTests1\obj\Debug\2.zadTests1.csproj.CoreCompileInputs.cache
+C:\Users\Edi\Documents\Visual Studio 2017\Projects\2. DZ\2.zadTests1\obj\Debug\2.zadTests1.dll
+C:\Users\Edi\Documents\Visual Studio 2017\Projects\2. DZ\2.zadTests1\obj\Debug\2.zadTests1.pdb
+C:\Users\Edi\Desktop\2. DZ\2.zadTests1\obj\Debug\2.zadTests1.csprojResolveAssemblyReference.cache
+C:\Users\Edi\Desktop\2. DZ\2.zadTests1\obj\Debug\2.zadTests1.csproj.CoreCompileInputs.cache
+C:\Users\Edi\Desktop\2. DZ\2.zadTests1\obj\Debug\2.zadTests1.dll
+C:\Users\Edi\Desktop\2. DZ\2.zadTests1\obj\Debug\2.zadTests1.pdb
+C:\Users\Edi\Desktop\2. DZ\2.zadTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Edi\Desktop\2. DZ\2.zadTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Edi\Desktop\2. DZ\2.zadTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Edi\Desktop\2. DZ\2.zadTests1\bin\Debug\2.zadTests1.dll
+C:\Users\Edi\Desktop\2. DZ\2.zadTests1\bin\Debug\2.zadTests1.pdb
+C:\Users\Edi\Desktop\2. DZ\2.zadTests1\bin\Debug\2.zad.exe
+C:\Users\Edi\Desktop\2. DZ\2.zadTests1\bin\Debug\3.zad.exe
+C:\Users\Edi\Desktop\2. DZ\2.zadTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Edi\Desktop\2. DZ\2.zadTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Edi\Desktop\2. DZ\2.zadTests1\bin\Debug\3.zad.pdb
+C:\Users\Edi\Desktop\2. DZ\2.zadTests1\bin\Debug\3.zad.exe.config
+C:\Users\Edi\Desktop\2. DZ\2.zadTests1\bin\Debug\2.zad.pdb
+C:\Users\Edi\Desktop\2. DZ\2.zadTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Edi\Desktop\2. DZ\2.zadTests1\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
