@@ -1,0 +1,6 @@
+C:\Users\Edi\Desktop\2. DZ\6.zad\bin\Debug\6.zad.pdb
+C:\Users\Edi\Desktop\2. DZ\6.zad\obj\Debug\6.zad.csprojResolveAssemblyReference.cache
+C:\Users\Edi\Desktop\2. DZ\6.zad\obj\Debug\6.zad.csproj.CoreCompileInputs.cache
+C:\Users\Edi\Desktop\2. DZ\6.zad\obj\Debug\6.zad.pdb
+C:\Users\Edi\Desktop\2. DZ\6.zad\bin\Debug\6.zad.exe
+C:\Users\Edi\Desktop\2. DZ\6.zad\obj\Debug\6.zad.exe
