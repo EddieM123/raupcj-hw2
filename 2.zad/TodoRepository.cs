@@ -81,7 +81,7 @@ namespace _2.zad
         public bool MarkAsCompleted(Guid todoId)
         {
             TodoItem x = _inMemoryTodoDatabase.Where(s => s.Id == todoId).First();
-            if (x == null) return false;
+            if (x == null || x.IsCompleted) return false;
             else
             {
              x.MarkAsCompleted();
@@ -100,21 +100,21 @@ namespace _2.zad
         /// </ summary >
         public List<TodoItem> GetActive()
         {
-            return _inMemoryTodoDatabase.Where(s => s.IsCompleted is false).ToList();
+            return _inMemoryTodoDatabase.Where(s => s.IsCompleted is false).OrderByDescending(s => s.DateCreated).ToList();
         }
 
         /// Gets all completed TodoItem objects in the database
         /// </ summary >
         public List<TodoItem> GetCompleted()
         {
-            return _inMemoryTodoDatabase.Where(s => s.IsCompleted is true).ToList();
+            return _inMemoryTodoDatabase.Where(s => s.IsCompleted is true).OrderByDescending(s => s.DateCreated).ToList();
         }
 
         /// Gets all TodoItem objects in database that apply to the filter
         /// </ summary >
         public List<TodoItem> GetFiltered(Func<TodoItem, bool> filterFunction)
         {
-            return _inMemoryTodoDatabase.Where(filterFunction).ToList();
+            return _inMemoryTodoDatabase.Where(filterFunction).OrderByDescending(s => s.DateCreated).ToList();
         }
 
 

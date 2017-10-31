@@ -63,10 +63,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Nova mapa\3.zad\lib.csproj">
-      <Project>{56A99156-B335-46A1-8C12-C34AD9705DD8}</Project>
-      <Name>lib</Name>
-    </ProjectReference>
     <ProjectReference Include="..\2.zad\2.zad.csproj">
       <Project>{3C8CB07F-43F6-46D8-B73F-C973150B0711}</Project>
       <Name>2.zad</Name>

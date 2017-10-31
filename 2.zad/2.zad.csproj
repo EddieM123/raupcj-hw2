@@ -50,7 +50,7 @@
     <Compile Include="TodoRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Nova mapa\3.zad\lib.csproj">
+    <ProjectReference Include="..\lib\lib.csproj">
       <Project>{56A99156-B335-46A1-8C12-C34AD9705DD8}</Project>
       <Name>lib</Name>
     </ProjectReference>
