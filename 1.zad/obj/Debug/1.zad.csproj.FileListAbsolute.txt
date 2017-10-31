@@ -9,3 +9,9 @@ C:\Users\Edi\Desktop\2. DZ\1.zad\bin\Debug\1.zad.exe
 C:\Users\Edi\Desktop\2. DZ\1.zad\bin\Debug\1.zad.pdb
 C:\Users\Edi\Desktop\2. DZ\1.zad\obj\Debug\1.zad.exe
 C:\Users\Edi\Desktop\2. DZ\1.zad\obj\Debug\1.zad.pdb
+C:\Users\Edi\Source\Repos\raupcj-hw2\1.zad\bin\Debug\1.zad.exe
+C:\Users\Edi\Source\Repos\raupcj-hw2\1.zad\bin\Debug\1.zad.pdb
+C:\Users\Edi\Source\Repos\raupcj-hw2\1.zad\obj\Debug\1.zad.csprojResolveAssemblyReference.cache
+C:\Users\Edi\Source\Repos\raupcj-hw2\1.zad\obj\Debug\1.zad.csproj.CoreCompileInputs.cache
+C:\Users\Edi\Source\Repos\raupcj-hw2\1.zad\obj\Debug\1.zad.exe
+C:\Users\Edi\Source\Repos\raupcj-hw2\1.zad\obj\Debug\1.zad.pdb

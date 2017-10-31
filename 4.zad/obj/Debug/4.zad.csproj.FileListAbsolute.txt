@@ -14,3 +14,11 @@ C:\Users\Edi\Desktop\2. DZ\4.zad\obj\Debug\4.zad.csprojResolveAssemblyReference.
 C:\Users\Edi\Desktop\2. DZ\4.zad\obj\Debug\4.zad.csproj.CoreCompileInputs.cache
 C:\Users\Edi\Desktop\2. DZ\4.zad\obj\Debug\4.zad.exe
 C:\Users\Edi\Desktop\2. DZ\4.zad\obj\Debug\4.zad.pdb
+C:\Users\Edi\Source\Repos\raupcj-hw2\4.zad\bin\Debug\4.zad.exe
+C:\Users\Edi\Source\Repos\raupcj-hw2\4.zad\bin\Debug\4.zad.pdb
+C:\Users\Edi\Source\Repos\raupcj-hw2\4.zad\bin\Debug\1.zad.exe
+C:\Users\Edi\Source\Repos\raupcj-hw2\4.zad\bin\Debug\1.zad.pdb
+C:\Users\Edi\Source\Repos\raupcj-hw2\4.zad\obj\Debug\4.zad.csprojResolveAssemblyReference.cache
+C:\Users\Edi\Source\Repos\raupcj-hw2\4.zad\obj\Debug\4.zad.csproj.CoreCompileInputs.cache
+C:\Users\Edi\Source\Repos\raupcj-hw2\4.zad\obj\Debug\4.zad.exe
+C:\Users\Edi\Source\Repos\raupcj-hw2\4.zad\obj\Debug\4.zad.pdb

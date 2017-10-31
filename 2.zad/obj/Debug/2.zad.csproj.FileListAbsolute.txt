@@ -16,3 +16,12 @@ C:\Users\Edi\Desktop\2. DZ\2.zad\bin\Debug\2.zad.pdb
 C:\Users\Edi\Desktop\2. DZ\2.zad\bin\Debug\3.zad.exe
 C:\Users\Edi\Desktop\2. DZ\2.zad\bin\Debug\3.zad.pdb
 C:\Users\Edi\Desktop\2. DZ\2.zad\bin\Debug\3.zad.exe.config
+C:\Users\Edi\Source\Repos\raupcj-hw2\2.zad\bin\Debug\2.zad.exe
+C:\Users\Edi\Source\Repos\raupcj-hw2\2.zad\bin\Debug\2.zad.pdb
+C:\Users\Edi\Source\Repos\raupcj-hw2\2.zad\bin\Debug\3.zad.exe
+C:\Users\Edi\Source\Repos\raupcj-hw2\2.zad\bin\Debug\3.zad.pdb
+C:\Users\Edi\Source\Repos\raupcj-hw2\2.zad\bin\Debug\3.zad.exe.config
+C:\Users\Edi\Source\Repos\raupcj-hw2\2.zad\obj\Debug\2.zad.csprojResolveAssemblyReference.cache
+C:\Users\Edi\Source\Repos\raupcj-hw2\2.zad\obj\Debug\2.zad.csproj.CoreCompileInputs.cache
+C:\Users\Edi\Source\Repos\raupcj-hw2\2.zad\obj\Debug\2.zad.exe
+C:\Users\Edi\Source\Repos\raupcj-hw2\2.zad\obj\Debug\2.zad.pdb
