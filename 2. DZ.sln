@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.zad", "1.zad\1.zad.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.zad", "2.zad\2.zad.csproj", "{3C8CB07F-43F6-46D8-B73F-C973150B0711}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.zadTests1", "2.zadTests1\2.zadTests1.csproj", "{E41955C8-ED52-4989-B711-6FC43FA1F4BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.zad", "2.zadTests1\3.zad.csproj", "{E41955C8-ED52-4989-B711-6FC43FA1F4BC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.zad", "4.zad\4.zad.csproj", "{4D3F01BB-31E4-4811-913E-154C5C54F980}"
 EndProject

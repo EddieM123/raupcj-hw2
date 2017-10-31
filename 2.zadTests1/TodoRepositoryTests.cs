@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using lib;
 
-namespace _2.zad.Tests
+namespace _3.zad
 {
     [TestClass()]
     public class TodoRepositoryTests
@@ -19,10 +19,6 @@ namespace _2.zad.Tests
         TodoItem sir3 = new TodoItem("ispit3");
         TodoItem sir4 = new TodoItem("ispit4");
         TodoItem sir5 = new TodoItem("ispit5");
-
-
-       
-
 
         [TestMethod()]
         public void GetTodoItemTest()
