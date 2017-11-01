@@ -67,8 +67,7 @@ namespace _2.zad
             else
             {
                 TodoItem old = _inMemoryTodoDatabase.Where(s => s.Id == todoItem.Id).First();
-                int index = _inMemoryTodoDatabase.IndexOf(old);
-                _inMemoryTodoDatabase.RemoveAt(index);
+                _inMemoryTodoDatabase.Remove(old);
                 _inMemoryTodoDatabase.Add(todoItem);
                 return todoItem;
             }

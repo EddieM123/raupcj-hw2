@@ -12,38 +12,48 @@ namespace _3.zad
     [TestClass()]
     public class TodoRepositoryTests
     {
-        TodoRepository asd = new TodoRepository();
+        TodoRepository repos = new TodoRepository();
 
-        TodoItem sir1 = new TodoItem("ispit1");
-        TodoItem sir2 = new TodoItem("ispit2");
-        TodoItem sir3 = new TodoItem("ispit3");
-        TodoItem sir4 = new TodoItem("ispit4");
-        TodoItem sir5 = new TodoItem("ispit5");
+        TodoItem item1 = new TodoItem("ispit1");
+        TodoItem item2 = new TodoItem("ispit2");
+        TodoItem item3 = new TodoItem("ispit3");
+        TodoItem item4 = new TodoItem("ispit4");
+        TodoItem item5 = new TodoItem("ispit5");
 
         [TestMethod()]
         public void GetTodoItemTest()
         {
-            asd.Add(sir1);
-            asd.Add(sir2);
-            asd.Add(sir3);
-            asd.Add(sir4);
-            asd.Add(sir5);
+            repos.Add(item1);
+            repos.Add(item2);
 
-            TodoItem rand = asd.Get(sir1.Id);
+            TodoItem rand = repos.Get(item1.Id);
 
-            Assert.AreEqual(rand, sir1);
+            Assert.AreEqual(rand, item1);
         }
 
         [TestMethod()]
-        public void AddTodoItemTest()
+        public void GetTodoItemNoIDTest()
         {
-            asd.Add(sir1);
-            asd.Add(sir2);
-            asd.Add(sir3);
+            repos.Add(item1);
+            repos.Add(item2);
+
+
+            TodoItem rand = repos.Get(item3.Id);
+
+            Assert.AreEqual(rand, null);
+        }
+
+
+        [TestMethod()]
+        public void AddTodoItemFailTest()
+        {
+            repos.Add(item1);
+            repos.Add(item2);
+            repos.Add(item3);
 
             try
             {
-                asd.Add(sir2);
+                repos.Add(item2);
                 Assert.Fail();
             }
             catch (Exception)
@@ -53,99 +63,104 @@ namespace _3.zad
         }
 
         [TestMethod()]
+        public void AddTodoItemSuccesfulTest()
+        {
+            Assert.AreEqual(item1, repos.Add(item1));
+        }
+
+
+
+        [TestMethod()]
         public void RemoveTodoItemTest()
         {
-            asd.Add(sir1);
-            asd.Add(sir2);
-            asd.Add(sir3);
+            repos.Add(item1);
+            repos.Add(item2);
+            repos.Add(item3);
 
-            asd.Remove(sir2.Id);
+            repos.Remove(item2.Id);
 
-            List<TodoItem> list = asd.GetAll();
-            if(list.Contains(sir2)) Assert.Fail();
+            List<TodoItem> list = repos.GetAll();
+            if(list.Contains(item2)) Assert.Fail();
         }
 
         [TestMethod()]
         public void UpdateTodoItemTest()
         {
-            asd.Add(sir1);
-            asd.Add(sir2);
-            asd.Add(sir3);
+            repos.Add(item1);
+            repos.Add(item2);
+            repos.Add(item3);
 
-            sir2.Text = "ispit2.2";
-            TodoItem rand = asd.Update(sir2);
-            TodoItem test3 = asd.Get(sir2.Id);
+            item2.Text = "ispit2.2";
+            TodoItem rand = repos.Update(item2);
+            TodoItem test3 = repos.Get(item2.Id);
 
-            Assert.AreEqual(sir2.Text, test3.Text);
+            Assert.AreEqual(item2.Text, test3.Text);
         }
 
         [TestMethod()]
         public void MarkAsCompletedTest()
         {
-            asd.Add(sir1);
-            asd.Add(sir2);
-            asd.Add(sir3);
+            repos.Add(item1);
+            repos.Add(item2);
+            repos.Add(item3);
 
-            asd.MarkAsCompleted(sir2.Id);
+            repos.MarkAsCompleted(item2.Id);
 
-            if (!asd.Get(sir2.Id).IsCompleted) Assert.Fail();
+            if (!repos.Get(item2.Id).IsCompleted) Assert.Fail();
         }
 
         [TestMethod()]
         public void GetAllTodoItemTest()
         {
-            asd.Add(sir1);
-            asd.Add(sir2);
-            asd.Add(sir3);
+            repos.Add(item1);
+            repos.Add(item2);
+            repos.Add(item3);
 
-            List<TodoItem> list = asd.GetAll();
+            List<TodoItem> list = repos.GetAll();
 
 
-            if (!(list.Contains(sir2) && list.Contains(sir1) && list.Contains(sir3))) Assert.Fail();
+            if (!(list.Contains(item2) && list.Contains(item1) && list.Contains(item3))) Assert.Fail();
         }
 
         [TestMethod()]
         public void GetActiveTodoItemTest()
         {
-            asd.Add(sir1);
-            asd.Add(sir2);
-            asd.Add(sir3);
+            repos.Add(item1);
+            repos.Add(item2);
+            repos.Add(item3);
 
-            asd.MarkAsCompleted(sir2.Id);
-            List<TodoItem> list = asd.GetActive();
+            repos.MarkAsCompleted(item2.Id);
+            List<TodoItem> list = repos.GetActive();
 
 
-            if (list.Contains(sir2)) Assert.Fail();
+            if (list.Contains(item2)) Assert.Fail();
         }
 
         [TestMethod()]
         public void GetCompletedTodoItemTest()
         {
-            asd.Add(sir1);
-            asd.Add(sir2);
-            asd.Add(sir3);
+            repos.Add(item1);
+            repos.Add(item2);
+            repos.Add(item3);
 
-            asd.MarkAsCompleted(sir2.Id);
-            List<TodoItem> list = asd.GetCompleted();
+            repos.MarkAsCompleted(item2.Id);
+            List<TodoItem> list = repos.GetCompleted();
 
 
-            if (list.Contains(sir1) || list.Contains(sir3)) Assert.Fail();
+            if (list.Contains(item1) || list.Contains(item3)) Assert.Fail();
         }
 
         [TestMethod()]
         public void GetFilteredTodoItemTest()
         {
-            asd.Add(sir1);
-            asd.Add(sir2);
+            repos.Add(item1);
+            repos.Add(item2);
 
             TodoItem rand = new TodoItem("rand");
             
-            List<TodoItem> list = asd.GetFiltered(s => s.Text.Contains("rand"));
+            List<TodoItem> list = repos.GetFiltered(s => s.Text.Contains("rand"));
             
-            if (list.Contains(sir1) || list.Contains(sir2)) Assert.Fail();
+            if (list.Contains(item1) || list.Contains(item2)) Assert.Fail();
         }
-
-
-
     }
 }

@@ -13,14 +13,15 @@ namespace _6.zad
         {
             int n = 5;
 
-            var x = Task.Run(() => FactorialDigitSumAsync(n));
+            var x = FactorialDigitSumAsync(n);
+            Console.WriteLine(x.Result);
             Console.ReadKey();
         }
 
-        private static async Task FactorialDigitSumAsync(int x)
+        public static async Task<int> FactorialDigitSumAsync(int x)
         {
             var result = await Count(x);
-            Console.WriteLine(result);
+            return result;
         }
         
         public static async Task<int> Count(int x)

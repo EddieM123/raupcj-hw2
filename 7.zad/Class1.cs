@@ -25,7 +25,8 @@ namespace _7.zad
         }
         private static async Task<int> IKnowWhoKnowsThis(int n)
         {
-            return Factorial.FactorialDigitSumAsync(n).Result;
+            var t = Factorial.FactorialDigitSumAsync(n).Result;
+            return t;
         }
         // Ignore this part .
         static void Main(string[] args)
