@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace _6.zad
@@ -11,22 +12,18 @@ namespace _6.zad
         public static void Main(String[] args)
         {
             int n = 5;
-            
-            var task = FactorialDigitSumAsync(n);
-            int result = task.Result;
 
-            Console.WriteLine(result);
+            var x = Task.Run(() => FactorialDigitSumAsync(n));
             Console.ReadKey();
         }
 
-
-        public static async Task<int> FactorialDigitSumAsync(int n)
+        private static async Task FactorialDigitSumAsync(int x)
         {
-           int x = await count(n);
-           return x;
+            var result = await Count(x);
+            Console.WriteLine(result);
         }
-
-        public static async Task<int> count(int x)
+        
+        public static async Task<int> Count(int x)
         {
             int suma = 1;
             for (int i = 1; i <= x; i++)
