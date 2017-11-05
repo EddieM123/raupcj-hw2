@@ -13,7 +13,8 @@ namespace _6.zad
         {
             int n = 5;
 
-            var x = FactorialDigitSumAsync(n);
+            var x = Task.Run(() => FactorialDigitSumAsync(n));
+
             Console.WriteLine(x.Result);
             Console.ReadKey();
         }

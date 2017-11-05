@@ -43,13 +43,13 @@ namespace _4.zad
                 new Student("Iva", "005")
             };
 
-            University[] uni = new[]
-            {
-                new University("uni1", stud),
-                new University("uni2", stud1),
-                new University("uni3", stud2),
-                new University("uni4", stud3)
-            };
+            //University[] uni = new[]
+            //{
+            //    new University("uni1", stud),
+            //    new University("uni2", stud1),
+            //    new University("uni3", stud2),
+            //    new University("uni4", stud3)
+            //};
 
 
             

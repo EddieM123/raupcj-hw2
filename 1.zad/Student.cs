@@ -19,6 +19,7 @@ namespace _1.zad
             Jmbag = jmbag;
         }
 
+        
 
         public static void Main()
         {
@@ -59,7 +60,6 @@ namespace _1.zad
             // 2 :(
             var distinctStudentsCount = list.Select(s => s.Jmbag).Distinct().Count();
             Console.WriteLine(distinctStudentsCount);
-            Console.ReadKey();
         }
 
         private static void Case3()
@@ -77,15 +77,39 @@ namespace _1.zad
             bool isIvanTopStudent = topStudents.Any(s => s.Equals(ivan));
 
             Console.WriteLine(isIvanTopStudent);
-            Console.ReadKey();
         }
 
         public override bool Equals(Object obj)
         {
-            if (obj == null || GetType() != obj.GetType()) return false;
+            if (obj == null || (GetType() != obj.GetType())) return false;
 
             Student x = (Student)obj;
-            return (this.Jmbag == x.Jmbag) && (this.Name == x.Name);
+            return (this.Jmbag == x.Jmbag);
+        }
+
+        public override int GetHashCode()
+        {
+            return Int32.Parse(Jmbag);
+        }
+
+        public static bool operator ==(Student stud1, Student stud2)
+        {
+            if (object.ReferenceEquals(stud1, null))
+            {
+                return object.ReferenceEquals(stud2, null);
+            }
+
+            return stud1.Equals(stud2);
+        }
+
+        public static bool operator !=(Student stud1, Student stud2)
+        {
+            if (object.ReferenceEquals(stud1, null))
+            {
+                return object.ReferenceEquals(stud2, null);
+            }
+
+            return !stud1.Equals(stud2);
         }
     }
     public enum Gender

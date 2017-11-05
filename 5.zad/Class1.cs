@@ -25,7 +25,8 @@ namespace _5.zad
                     counter += 1;
                 }
             }) ;
-            Console.WriteLine(" Counter should be 100000. Counter is {0}", counter);
+            Console.WriteLine(" Counter should be 100000. Counter is {0}", counter);
+
 
             Console.ReadKey();
 
